@@ -31,6 +31,7 @@ Proposed Coding Standards
 - Conditional Statements
 1.	If Else statements should look like this in a PHP file,
 
+    ```php
     if ($expr1) {
     
     } elseif ($expr2) {
@@ -41,19 +42,19 @@ Proposed Coding Standards
 
 2.	Foreach statements should look like this in a PHP file,
 
-    foreach ($array as $key => $value) {
+    ```foreach ($array as $key => $value) {
     
     }
 
 3.	For loop statements should look like this in a PHP file,
 
-    for ($i = 0; $i < 10; $i++) {
+    ```for ($i = 0; $i < 10; $i++) {
     
     }
 
 4.	Try Catch statements should look like this in a PHP file,
 
-    try {
+    ```try {
 
     } catch (FirstExceptionType $e) {
     
