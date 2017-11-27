@@ -42,19 +42,22 @@ Proposed Coding Standards
 
 2.	Foreach statements should look like this in a PHP file,
 
-    ```foreach ($array as $key => $value) {
+    ```php
+    foreach ($array as $key => $value) {
     
     }
 
 3.	For loop statements should look like this in a PHP file,
 
-    ```for ($i = 0; $i < 10; $i++) {
+    ```php
+    for ($i = 0; $i < 10; $i++) {
     
     }
 
 4.	Try Catch statements should look like this in a PHP file,
 
-    ```try {
+    ```php
+    try {
 
     } catch (FirstExceptionType $e) {
     
